@@ -1,0 +1,157 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: seashell;
+  margin: 0;
+  padding: 0;
+  opacity: 0.95;
+}
+
+body {
+  background-color: black;
+}
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+  overflow: scroll;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 100;
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+#links {
+  display: flex;
+  flex-flow: row;
+  min-width: auto;
+  justify-content: space-between;
+  width: 20%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 30px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.card {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  text-align: center;
+}
+
+.card-img {
+  height: 200px;
+  width: 300px;
+}
+
+.section-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tea-cozy-logo {
+  height: 50px;
+  margin-left: 10px;
+}
+
+#banner {
+  background-image: url("img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mission {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#locations {
+  background-image: url("img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#tea-of-the-month {
+  max-width: 1000px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.location {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  justify-content: center;
+  line-height: 200%;
+}
+
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-info {
+  text-align: center;
+  line-height: 200%;
+}
+
+#copyright {
+  margin-left: 20px;
+  align-self: flex-start;
+}

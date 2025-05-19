@@ -1,0 +1,43 @@
+* {
+  font-family: "Space Mono", sans-serif;
+}
+
+body {
+  margin: 50px;
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("assets/SpaceMono-Regular.ttf");
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  background-image: url("assets/pattern.jpeg");
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+  color: blue;
+}
+
+.color-heading {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#brushes {
+  background-color: mediumspringgreen;
+}
+
+#frames {
+  background-color: lightcoral;
+}
+
+#paint {
+  background-color: skyblue;
+}

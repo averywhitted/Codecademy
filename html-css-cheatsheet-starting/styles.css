@@ -1,0 +1,38 @@
+* {
+  padding: 25px;
+  align-items: center;
+  margin: auto;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  width: 70%;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  background-color: cornflowerblue;
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  min-width: 30%;
+}
+
+img {
+  width: 100%;
+  padding: 0;
+}

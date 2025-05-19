@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block and inline layout in normal flow</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Block and inline layout in normal flow</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Block</th>
+          <th>Inline</th>
+          <th>Inline-Block</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            The element generates a block box, generating line breaks both
+            before and after the element when in the normal flow.
+          </td>
+          <td>
+            The element generates one or more inline boxes that do not generate
+            line breaks before or after themselves. In normal flow, the next
+            element will be on the same line if there is space.
+          </td>
+          <td>
+            The element generates a block box that will be flowed with
+            surrounding content as if it were a single inline box (behaving much
+            like a replaced element would). It is equivalent to inline
+            flow-root.
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="assets/Screenshot 2025-05-15 at 11.42.07 AM.png" alt="" />
+          </td>
+          <td>
+            <img src="assets/Screenshot 2025-05-15 at 11.42.36 AM.png" alt="" />
+          </td>
+          <td>
+            <img src="assets/Screenshot 2025-05-15 at 11.42.17 AM.png" alt="" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

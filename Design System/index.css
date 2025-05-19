@@ -1,0 +1,96 @@
+.body {
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-family: "Doto";
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Source Code Pro";
+  font-size: 22px;
+}
+
+h3 {
+  font-family: "Source Code Pro";
+  font-size: 20px;
+  font-weight: normal;
+}
+
+p {
+  font-family: "Source Code Pro";
+  font-size: 15px;
+}
+
+li {
+  font-family: "Source Code Pro";
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.section {
+  border: 2px dotted gray;
+  border-radius: 10px;
+  max-width: 80%;
+  min-height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding-left: 25px;
+}
+
+.swatch {
+  border-radius: 10px;
+  color: white;
+  min-width: 25%;
+  margin: 15px;
+  height: 100px;
+  display: inline-block;
+}
+
+.swatch-label {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: auto;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.light-font {
+  font-weight: lighter;
+}
+
+.normal-font {
+  font-weight: normal;
+}
+
+.bold-font {
+  font-weight: bold;
+}
+
+#title {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#orange {
+  background-color: #ba2d0b;
+}
+
+#light-green {
+  background-color: #b1e7cb;
+}
+
+#dark-green {
+  background-color: #73ba9b;
+}
+
+#darker-green {
+  background-color: #003e1f;
+}
+
+#black {
+  background-color: #01110a;
+}

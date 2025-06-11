@@ -121,7 +121,7 @@ h4 {
 }
 
 #hero button {
-  width: 30%;
+  width: 300px;
   height: auto;
   padding: 10px;
   margin: 10px;
@@ -172,7 +172,7 @@ h4 {
 #testimonials {
   padding-left: 5%;
   padding-right: 5%;
-  height: 500px;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -304,4 +304,30 @@ footer ul {
 
 footer a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+  nav {
+    display: none;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+  }
+  #in-the-box {
+    height: fit-content;
+  }
+  #testimonial {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
